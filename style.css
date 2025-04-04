@@ -118,7 +118,7 @@ a:hover:after{
 .content-benefits{
     border-radius: 1em;
     margin: 2em;
-    border: 1px solid black;
+    border: 1px solid  #a0a0a0;
     width: 60vw;
     display: flex;
     justify-content: center;
@@ -141,4 +141,35 @@ aside{
     justify-content: space-between;
     font-size: 2em;
     color: #ff3c78;
+}
+
+h2{
+    color: #ff3c78;
+    margin-left: 20px;
+    font-size: 2em;
+    letter-spacing: 0.9px;
+}
+
+.testimonios{
+    display: flex;
+    height: 20vh;
+}
+
+blockquote{
+    display: flex;
+    border: 1px solid #a0a0a0;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+cite{
+    align-self: flex-end;
+    padding: 10px;
+}
+
+blockquote img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    padding: 10px;
 }
