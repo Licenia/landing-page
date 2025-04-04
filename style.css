@@ -1,3 +1,8 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    height: 100vh;
+}
 
 .header-logo{
     display: flex;
@@ -50,3 +55,47 @@ a:hover{
 a:hover:after{
     width: 100%;
 }
+
+.hero-section{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./img/heroImage.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text{
+    color: #fff;
+    text-align: center;
+}
+
+.hero-text h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.hero-text p {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 50px;
+}
+
+.hero-btn{
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color:  #ff3c78;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.hero-btn:hover{
+    transform: scale(1.1);
+}
+
+
